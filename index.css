@@ -10,8 +10,8 @@ body{
 }
 
 .image{
-    height: 650px;
-    width: 650px;
+    height: 80%;
+    width: 80%;
 }
 
 .name{
@@ -22,8 +22,8 @@ body{
 }
 
 .image-box{
-    width: 450px;
-    height: 450px;
+  height: 100%;
+  width: 100%;
 }
 
 .carouselExampleIndicators{
