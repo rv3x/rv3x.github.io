@@ -15,7 +15,6 @@ body{
 }
 
 .name{
-    padding-top: 50px;
     font-family: 'Sacramento', cursive;
     font-size: larger;
     font-weight: bold;
@@ -183,4 +182,9 @@ img {
   /* position: fixed; */
   /* bottom: 0;
   width: 100%; */
+}
+
+.webname{
+  font-family: 'Sacramento', cursive;
+  text-align: center;
 }
