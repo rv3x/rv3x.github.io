@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="/index.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+
+  <title>hii </title>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="page">
+
+  <div class="row nav d-flex justify-content-center">
+    <div class="name d-flex justify-content-center">
+      <p style="
+      font-size: 60px;
+  ">hii arpita !!!</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="main d-flex justify-content-center">
+      <div class="image">
+        <div class="container">
+          <div class="item">
+            <figure class="polaroid">
+              <div id="banner-images">
+
+              </div>
+              <figcaption class="caption"></figcaption>
+            </figure>
+          </div>
+        </div>
+        <div class="text-1" style="font-size: xx-large;">
+          <p>refresh to relive your memories</p>
+        </div>
+        <div class="text-1 d-flex justify-content-center">
+          <p>ummm hmmm </p>
+        </div>
+        <div id="gift">
+          <p>
+            small gift from aryaveer
+          </p> 
+        </div>
+      
+      </div>
+    </div>
+  </div>
+
+
+</div>
+  <script>
+    var images = ['img1.jpg', 'img2.jpg', 'img3.jpg', 'img4.jpg'];
+    $('<img  class="d-block w-100" alt="..." src="/images/image-box/' + images[Math.floor(Math.random() * images
+      .length)] + '">').appendTo('#banner-images');
+  </script>
+
+</body>
+
+</html>
